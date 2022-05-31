@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: monospace;
+	
+}
+.container {
+	display: flex;
+	height: 90vh;
+	justify-content: center;
+	align-items: center;
+}
+h1, thead {
+	background-color: teal;
+	padding: 1em;
+	color: white;
+}
+table {
+	max-width: 80%;
+	min-width: 30%;
+	text-align: left;
+}
+
+tr {
+	font-size: 1.8em;
+}
+tbody > tr:nth-child(even) {
+	background-color: #cecece;
+}
+th, td {
+	padding: 0.5em;
+}
